@@ -1,0 +1,24 @@
+package org.hype.domain;
+
+import java.sql.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class likedPopImgVO {
+
+	
+	private int userNo; // ????ï¿????
+	private int psNo; // ?????ï¿½ï¿½???? ï¿????
+	private Date likeDate; // ï¿?????? ??ï¿??
+	private String uuid; // uuid
+	private String uploadPath; // ??ï¿???? ê²½ï¿½?
+	private String fileName; // ???? ?ï¿½ï¿½?
+	private String psName; // ?????ï¿½ï¿½???? ?ï¿½ï¿½?
+}
